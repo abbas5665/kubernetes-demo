@@ -1,0 +1,27 @@
+{
+  "name": "kubernetes-demo",
+  "version": "1.0.0",
+  "description": "Node.js Kubernetes demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbas5665/kubernetes-demo.git"
+  },
+  "keywords": ["kubernetes", "docker", "devops"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/abbas5665/kubernetes-demo/issues"
+  },
+  "homepage": "https://github.com/abbas5665/kubernetes-demo#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
